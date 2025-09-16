@@ -70,7 +70,7 @@ const Footer = () => {
 
         <div className="mt-8 pt-8 border-t border-border text-center">
           <p className="text-sm text-muted-foreground">
-            © 2025 Disha. Built for Smart India Hackathon 2025 - Team SIH2025
+            © 2025 Disha. Built for Smart India Hackathon 2025 - Team HackStreet Boys 😎
           </p>
         </div>
       </div>

@@ -30,7 +30,7 @@ const Contact = () => {
       icon: Phone,
       title: "Call Us",
       description: "Speak with our team",
-      contact: "+91 98765 43210",
+      contact: "+91 94517 92098",
       action: "tel:+919876543210",
     },
     {

@@ -186,7 +186,7 @@ const About = () => {
                 "Empowering the next generation of professionals through AI-driven career guidance."
               </p>
               <p className="text-sm text-muted-foreground mt-4">
-                — Team Disha, Smart India Hackathon 2025
+                — Team HackStreet Boys, Smart India Hackathon 2025
               </p>
             </div>
           </div>

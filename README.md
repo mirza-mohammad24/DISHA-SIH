@@ -1,73 +1,163 @@
-# Welcome to your Lovable project
+# 🌟 Disha – AI-Based Internship Recommendation Engine  
 
-## Project info
+**Smart India Hackathon 2025 Submission**  
 
-**URL**: https://lovable.dev/projects/7d5e5cab-5dc5-42bf-a46b-f61ee569cffb
+> An intelligent recommendation system that helps students discover the most relevant internships based on their skills, education, and interests.  
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## 🚀 Project Overview  
 
-**Use Lovable**
+Finding the right internship is often overwhelming. **Disha** simplifies this process by using **Machine Learning** to recommend the top opportunities tailored for each student.  
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7d5e5cab-5dc5-42bf-a46b-f61ee569cffb) and start prompting.
+- 🎯 **Personalized Recommendations**: Get 3–5 best-fit internships.  
+- 🧑‍💻 **Skill & Interest Matching**: Matches education, skills, and career interests.  
+- 📍 **Location-Based Filtering**: Find internships nearby or in your preferred region.  
+- ⚡ **Fast & Responsive**: Built with modern frontend technologies for smooth experience.  
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🖥️ Features  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Landing Page** – Clean, modern hero section with call-to-action.  
+- **Form Page** – Collects student profile (skills, education, interests, location).  
+- **Results Page** – Displays recommended internships with match percentage.  
+- **About Page** – Explains problem statement, our solution, and tech stack.  
+- **Team Page** – Showcases contributors of this project.  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🛠️ Tech Stack  
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+**Frontend**  
+- React.js (functional components + hooks)  
+- Vite  
+- Tailwind CSS  
+- shadcn/ui  
+- React Router DOM  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+**Backend / AI**  
+- Python (Flask / FastAPI planned integration)  
+- Scikit-learn / TensorFlow (for recommendation model)  
+- MySQL (for internship dataset)  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+## 📂 Project Structure  
+
+```bash
+DISHA-SIH/
+│── public/ # Static assets
+│── src/
+│ ├── components/ # Reusable UI components
+│ ├── hooks/ # Custom React hooks
+│ ├── lib/ # Utility functions / helpers
+│ ├── pages/ # Page components (Form, Results, About, Team, etc.)
+│ ├── App.css # Global styles
+│ ├── App.tsx # Main app component
+│ ├── index.css # Base CSS
+│ ├── main.tsx # Application entry point
+│ └── vite-env.d.ts # Vite TypeScript declarations
+│── .gitignore
+│── bun.lockb
+│── components.json
+│── eslint.config.js
+│── index.html
+│── package-lock.json
+│── package.json
+│── postcss.config.js
+│── README.md
+│── tailwind.config.ts
+│── tsconfig.app.json
+│── tsconfig.json
+│── tsconfig.node.json
+└── vite.config.ts
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚙️ Getting Started  
 
-**Use GitHub Codespaces**
+Follow these steps to run the project locally:  
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### 1️⃣ Clone the Repository  
+```sh
+git clone <YOUR_REPO_URL>
+cd DISHA-SIH
+```
+### 2️⃣ Install Dependencies
 
-## What technologies are used for this project?
+Using npm:
 
-This project is built with:
+```sh
+npm install
+```
+Or, if you are using Bun:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+bun install
+```
 
-## How can I deploy this project?
+### 3️⃣ Run the Development Server
 
-Simply open [Lovable](https://lovable.dev/projects/7d5e5cab-5dc5-42bf-a46b-f61ee569cffb) and click on Share -> Publish.
+Using npm:
+```sh
+npm run dev
+```
+Or with Bun:
+```sh
+bun dev
+```
 
-## Can I connect a custom domain to my Lovable project?
+The app will be available at http://localhost:5173/
 
-Yes, you can!
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## 📦 Deployment
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### This project can be deployed on:
+
+1) Vercel
+
+2) Netlify
+
+3) GitHub Pages
+
+### Example: Deploy on Vercel
+```sh
+npm run build
+vercel deploy
+```
+
+For production builds (optimized):
+
+```sh
+npm run build
+```
+
+## 👥 Team
+
+Smart India Hackathon 2025 – Team [HackStreet Boys]
+
+1) MIRZA MOHAMMAD ABBAS
+2) VINAYAK JOSHI
+3) HARSH VARDHAN SINGH
+4) AARAV
+5) TANISHTHA SWAMI
+6) ANISH AGARWAL
+
+
+
+## 📌 Future Scope
+- 🔗 Integration with real internship APIs & datasets
+
+- 🤖 Smarter recommendation engine using collaborative   filtering + ML models
+
+- 📱 Mobile-first Progressive Web App (PWA)
+
+- 🛰️ Geo-based internship filtering & push notifications
+
+- 🔒 Secure user authentication & profile management
+
+## 🏆 Acknowledgement
+Built with passion for Smart India Hackathon 2025 🎉
+
